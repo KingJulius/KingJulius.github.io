@@ -1,0 +1,118 @@
+import IMG1 from './assets/project-images/foodclassifier.png';
+import IMG2 from './assets/project-images/minesweeper.png';
+import IMG3 from './assets/project-images/digitclassifier.png';
+
+import HONEYWELL from './assets/company-icons/honeywell-logo.jpg'
+import KPMG from './assets/company-icons/kpmg-logo.svg'
+import NBA from './assets/company-icons/nba-logo.jpeg'
+
+import HTML from "./assets/library-icons/html5-original.svg";
+import CSS from "./assets/library-icons/css3-original.svg";
+import DJANGO from "./assets/library-icons/django-plain.svg";
+import EXPRESS from "./assets/library-icons/express-original.svg";
+import FLASK from "./assets/library-icons/flask-original.svg";
+import C from "./assets/library-icons/c-original.svg";
+import JAVA from "./assets/library-icons/java-original.svg";
+import JAVASCRIPT from "./assets/library-icons/javascript-original.svg";
+import MARKDOWN from "./assets/library-icons/markdown-original.svg";
+import MONGODB from "./assets/library-icons/mongodb-original.svg";
+import MYSQL from "./assets/library-icons/mysql-original.svg";
+import NEXTJS from "./assets/library-icons/nextjs-line.svg";
+import NODEJS from "./assets/library-icons/nodejs-original.svg";
+import PYTHON from "./assets/library-icons/python-original.svg";
+import PYTORCH from "./assets/library-icons/pytorch-original.svg";
+import REACT from "./assets/library-icons/react-original.svg";
+import REDUX from "./assets/library-icons/redux-original.svg";
+import SPRING from "./assets/library-icons/spring-original.svg";
+import TENSORFLOW from "./assets/library-icons/tensorflow-original.svg";
+import TYPESCRIPT from "./assets/library-icons/typescript-original.svg";
+import NPM from "./assets/tool-icons/npm-original-wordmark.svg";
+import UBUNTU from "./assets/tool-icons/ubuntu-plain.svg";
+import GIT from "./assets/tool-icons/git-original.svg";
+import VSCODE from "./assets/tool-icons/vscode-original.svg";
+import WINDOWS from "./assets/tool-icons/windows8-original.svg";
+import GITHUB from "./assets/tool-icons/github-original.svg";
+import LINUX from "./assets/tool-icons/linux-original.svg";
+import DOCKER from "./assets/tool-icons/docker-original.svg";
+import AWS from "./assets/tool-icons/amazonwebservices-original.svg";
+import AZURE from "./assets/tool-icons/azure-original.svg";
+import YARN from "./assets/tool-icons/yarn-original.svg";
+
+export const soloProjects = [
+  {
+    id: 1,
+    title: 'Food Dish Classifier',
+    img: IMG1,
+    description:
+      'Website that allows users to upload image of their dish and it returns the label along with the confidence score',
+    technologies: 'TensorFlow | Flask | React.js',
+    link: '',
+    github: 'https://github.com/KingJulius/Predict-that-Dish',
+  },
+  {
+    id: 2,
+    title: 'Minesweeper Java Application',
+    img: IMG2,
+    description:
+      'A GUI game using a client/server architecture to load and save an instance of the game and to display the top scores.',
+    technologies: 'Java | JavaFX | Swing | GUI | SQLite | JDBC',
+    link: 'https://github.com/KingJulius/Minesweeper',
+    github: 'https://github.com/KingJulius/Minesweeper',
+  },
+  {
+    id: 3,
+    title: 'Digit Classification using Real-Time Image Feed',
+    img: IMG3,
+    description: 'Digit Classification using Real-Time Image Feed',
+    technologies: 'Python | OpenCV | Keras| TensorFlow',
+    link: 'https://github.com/KingJulius/Real-Time-Digit-Classification',
+    github: 'https://github.com/KingJulius/Real-Time-Digit-Classification',
+  },
+];
+
+export const exp = [
+  {position:`Software Eng Intern`,  company:"NBA", dates:"Jun 2022 – Aug 2022", location:"New York, USA", img:NBA},
+  {position:"Analyst",  company:"KPMG", dates:"Jul 2018 – Aug 2020", location:`Bengaluru, India`, img:KPMG},
+  {position:"Software Dev Intern",  company:"Honeywell Technology Solutions", dates:"Jan 2018 – Jun 2018", location:"Bengaluru, India", img:HONEYWELL},
+];
+
+export const langauges = [
+  {title:'PYTHON', img:PYTHON},
+  {title:'JAVASCRIPT', img:JAVASCRIPT},
+  {title:'TYPESCRIPT', img:TYPESCRIPT},
+  {title:'REACT', img:REACT},
+  {title:'REDUX', img:REDUX},
+  {title:'NEXTJS', img:NEXTJS},
+  {title:'NODEJS', img:NODEJS},
+  {title:'EXPRESS', img:EXPRESS},
+  {title:'DJANGO', img:DJANGO},
+  {title:'FLASK', img:FLASK},
+  {title:'HTML', img:HTML},
+  {title:'CSS', img:CSS},
+  {title:'MONGODB', img:MONGODB},
+  {title:'TENSORFLOW', img:TENSORFLOW},
+  {title:'PYTORCH', img:PYTORCH},
+  {title:'JAVA', img:JAVA},
+  {title:'MARKDOWN', img:MARKDOWN},
+  {title:'SPRING', img:SPRING},
+  {title:'C', img:C}
+];
+
+export const tools =[
+  {title:'NPM', img:NPM},
+  {title:'UBUNTU', img:UBUNTU},
+  {title:'GIT', img:GIT},
+  {title:'VSCODE', img:VSCODE},
+  {title:'WINDOWS', img:WINDOWS},
+  {title:'MYSQL', img:MYSQL},
+  {title:'GITHUB', img:GITHUB},
+  {title:'LINUX', img:LINUX},
+  {title:'DOCKER', img:DOCKER},
+  {title:'AWS', img:AWS},
+  {title:'AZURE', img:AZURE},
+  {title:'YARN', img:YARN}
+];
+
+
+
+export const summary = "Experience in developing scalable websites and applications using a wide range of modern technologies and frameworks. Comprehensive experience in designing and developing high-quality deliverables for large enterprises/clients. Highly adept at both independent and collaborative projects, with an emphasis on landing pages and website development.";
