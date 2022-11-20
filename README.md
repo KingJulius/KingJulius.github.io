@@ -1,18 +1,18 @@
 # Personal-Portfolio
-> This is personal portfolio website.
+> This is my personal portfolio website.
 
 ![Portfolio](/src/assets/home.png)
 
 ## Built With
 
 - React
-- JavaScript
+- JavaScript(ES6)
 - CSS
 - VS code
 
 ## Live Demo
 
-- [Live Demo](https://kingjulius.github.io/portfolio---react)
+- [Live Demo](https://kingjulius.github.io/)
 
 
 # Getting Started
@@ -29,12 +29,12 @@
 
 - Choose a folder in your local machine where you want this repository to be copied
 
-- Clone this [repository](https://github.com/KingJulius/portfolio---react) to your local machine 
+- Clone this [repository](https://github.com/KingJulius/KingJulius.github.io) to your local machine 
 - ```
-  git clone git@github.com:KingJulius/portfolio---react.git
+  gh repo clone KingJulius/KingJulius.github.io
   ```
 
-- Navigate to `cd portfolio---react`  directory.
+- Navigate to `cd KingJulius.github.io-main`  directory.
 
 - To install all the app dependencies on the command line run
 - ```
@@ -55,7 +55,7 @@
 
 ## 🤝 Contributing
 - Contributions, issues, and feature requests are welcome!
-- Feel free to check the [issues page](https://github.com/KingJulius/portfolio---react/issues).
+- Feel free to check the [issues page](https://github.com/KingJulius/KingJulius.github.io/issues).
 
 # Show your support
 Give a ⭐ if you like this project!
