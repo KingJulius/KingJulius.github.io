@@ -38,6 +38,18 @@ import AWS from "./assets/tool-icons/amazonwebservices-original.svg";
 import AZURE from "./assets/tool-icons/azure-original.svg";
 import YARN from "./assets/tool-icons/yarn-original.svg";
 
+import { AiOutlineHome } from 'react-icons/ai';
+import { AiOutlineUser } from 'react-icons/ai';
+import { BiBook } from 'react-icons/bi';
+import { CiViewTimeline } from 'react-icons/ci';
+import { FaBusinessTime } from 'react-icons/fa';
+import {MdOutlineContactMail} from 'react-icons/md'
+
+import { BsLinkedin } from 'react-icons/bs';
+import { FaGithub } from 'react-icons/fa';
+import { FaTwitterSquare } from 'react-icons/fa'
+
+
 export const soloProjects = [
   {
     id: 1,
@@ -113,6 +125,19 @@ export const tools =[
   {title:'YARN', img:YARN}
 ];
 
+export const contents =[
+  {id:1, section:'home', icon:<AiOutlineHome />, title:'Home'},
+  {id:2, section:'about', icon:<AiOutlineUser />, title:'About'},
+  {id:3, section:'experience', icon:<BiBook />, title:'Skills'},
+  {id:4, section:'timeline', icon:<CiViewTimeline />, title:'Experience'},
+  {id:5, section:'portfolio', icon:<FaBusinessTime />, title:'Projects'},
+  {id:6, section:'contact', icon:<MdOutlineContactMail />, title:'Contact'},
+];
 
+export const links = [
+  {id:1, title:'LinkedIn', url:'https://www.linkedin.com/in/julius-dsouza/', icon:<BsLinkedin />},
+  {id:2, title:'GitHub', url:'https://github.com/KingJulius', icon:<FaGithub />},
+  {id:3, title:'Twitter', url:'https://twitter.com/jsdsz', icon:<FaTwitterSquare />},
+];
 
 export const summary = "Experience in developing scalable websites and applications using a wide range of modern technologies and frameworks. Comprehensive experience in designing and developing high-quality deliverables for large enterprises/clients. Highly adept at both independent and collaborative projects, with an emphasis on landing pages and website development.";

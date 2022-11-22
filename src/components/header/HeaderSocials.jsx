@@ -1,14 +1,13 @@
 import React from 'react';
-import { BsLinkedin } from 'react-icons/bs';
-import { FaGithub } from 'react-icons/fa';
-import { FaTwitterSquare } from 'react-icons/fa'
+import { links } from "../../data.js";
 
 const HeaderSocials = () => {
+  const linkItems = links.map((element) => (
+    <a href={element.url} target="_blank" rel="noreferrer" >{element.icon}</a>
+  ));
   return (
     <div className="header__socials">
-      <a href="https://www.linkedin.com/in/julius-dsouza/" target="_blank" rel="noreferrer" ><BsLinkedin /></a>
-      <a href="https://github.com/KingJulius" target="_blank" rel="noreferrer" ><FaGithub /></a>
-      <a href="https://twitter.com/jsdsz" target="_blank" rel="noreferrer" ><FaTwitterSquare /></a>
+      {linkItems}
     </div>
   )
 }
