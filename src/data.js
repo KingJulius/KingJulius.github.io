@@ -89,40 +89,40 @@ export const exp = [
 ];
 
 export const langauges = [
-  {title:'PYTHON', img:PYTHON},
-  {title:'JAVASCRIPT', img:JAVASCRIPT},
-  {title:'TYPESCRIPT', img:TYPESCRIPT},
-  {title:'REACT', img:REACT},
-  {title:'REDUX', img:REDUX},
-  {title:'NEXTJS', img:NEXTJS},
-  {title:'NODEJS', img:NODEJS},
-  {title:'EXPRESS', img:EXPRESS},
-  {title:'DJANGO', img:DJANGO},
-  {title:'FLASK', img:FLASK},
-  {title:'HTML', img:HTML},
-  {title:'CSS', img:CSS},
-  {title:'MONGODB', img:MONGODB},
-  {title:'TENSORFLOW', img:TENSORFLOW},
-  {title:'PYTORCH', img:PYTORCH},
-  {title:'JAVA', img:JAVA},
-  {title:'MARKDOWN', img:MARKDOWN},
-  {title:'SPRING', img:SPRING},
-  {title:'C', img:C}
+  {id:1, title:'PYTHON', img:PYTHON},
+  {id:2, title:'JAVASCRIPT', img:JAVASCRIPT},
+  {id:3, title:'TYPESCRIPT', img:TYPESCRIPT},
+  {id:4, title:'REACT', img:REACT},
+  {id:5, title:'REDUX', img:REDUX},
+  {id:6, title:'NEXTJS', img:NEXTJS},
+  {id:7, title:'NODEJS', img:NODEJS},
+  {id:8, title:'EXPRESS', img:EXPRESS},
+  {id:9, title:'DJANGO', img:DJANGO},
+  {id:10, title:'FLASK', img:FLASK},
+  {id:11, title:'HTML', img:HTML},
+  {id:12, title:'CSS', img:CSS},
+  {id:13, title:'MONGODB', img:MONGODB},
+  {id:14, title:'TENSORFLOW', img:TENSORFLOW},
+  {id:15, title:'PYTORCH', img:PYTORCH},
+  {id:16, title:'JAVA', img:JAVA},
+  {id:17, title:'MARKDOWN', img:MARKDOWN},
+  {id:18, title:'SPRING', img:SPRING},
+  {id:19, title:'C', img:C}
 ];
 
 export const tools =[
-  {title:'NPM', img:NPM},
-  {title:'UBUNTU', img:UBUNTU},
-  {title:'GIT', img:GIT},
-  {title:'VSCODE', img:VSCODE},
-  {title:'WINDOWS', img:WINDOWS},
-  {title:'MYSQL', img:MYSQL},
-  {title:'GITHUB', img:GITHUB},
-  {title:'LINUX', img:LINUX},
-  {title:'DOCKER', img:DOCKER},
-  {title:'AWS', img:AWS},
-  {title:'AZURE', img:AZURE},
-  {title:'YARN', img:YARN}
+  {id:1, title:'NPM', img:NPM},
+  {id:2, title:'UBUNTU', img:UBUNTU},
+  {id:3, title:'GIT', img:GIT},
+  {id:4, title:'VSCODE', img:VSCODE},
+  {id:5, title:'WINDOWS', img:WINDOWS},
+  {id:6, title:'MYSQL', img:MYSQL},
+  {id:7, title:'GITHUB', img:GITHUB},
+  {id:8, title:'LINUX', img:LINUX},
+  {id:9, title:'DOCKER', img:DOCKER},
+  {id:10, title:'AWS', img:AWS},
+  {id:11, title:'AZURE', img:AZURE},
+  {id:12, title:'YARN', img:YARN}
 ];
 
 export const contents =[

@@ -6,13 +6,13 @@ import ReactToolTip from 'react-tooltip';
 const Experience = () => {
   const languageItems = langauges.map((element) => (
     <article className="experience__details">
-      <img className="library_logo" src={element.img} alt={element.title} data-tip={element.title} data-for="tool-tip"/>
+      <img key={element.id} className="library_logo" src={element.img} alt={element.title} data-tip={element.title} data-for="tool-tip"/>
     </article>
   ));
 
   const toolItmes = tools.map((element) => (
     <article className="experience__details">
-      <img className="library_logo" src={element.img} alt={element.title} data-tip={element.title} data-for="tool-tip"/>
+      <img key={element.id} className="library_logo" src={element.img} alt={element.title} data-tip={element.title} data-for="tool-tip"/>
     </article>
   ));
 

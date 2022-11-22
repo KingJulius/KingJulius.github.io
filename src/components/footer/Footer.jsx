@@ -4,10 +4,10 @@ import { contents, links } from "../../data.js";
 
 const Footer = () => {
   const footerItems = contents.map((element) => (
-    <li><a href={element.section}>{element.title}</a></li>
+    <li><a key={element.id} href={element.section}>{element.title}</a></li>
   ));
   const linkItems = links.map((element) => (
-    <a href={element.url} target="_blank" rel="noreferrer" >{element.icon}</a>
+    <a key={element.id} href={element.url} target="_blank" rel="noreferrer" >{element.icon}</a>
   ));
   return (
     <footer>
