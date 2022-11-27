@@ -3,7 +3,7 @@ import './footer.css';
 
 const Footer = ({links, contents}) => {
   const footerItems = contents.map((element) => (
-    <li><a key={element.id} href={element.section}>{element.title}</a></li>
+    <li key={element.id}><a key={element.id} href={element.section}>{element.title}</a></li>
   ));
   const linkItems = links.map((element) => (
     <a key={element.id} href={element.url} target="_blank" rel="noreferrer" >{element.icon}</a>
