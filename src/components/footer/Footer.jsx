@@ -11,6 +11,7 @@ const Footer = () => {
   ));
   return (
     <footer>
+      <a href="#home" className="footer__logo">Julius Dsouza</a>
       <ul className="permalinks">
         {footerItems}
       </ul>
