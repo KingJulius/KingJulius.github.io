@@ -3,9 +3,8 @@ import { FaAward } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
 import ME from '../../assets/me.png';
 import './intro.css';
-import {summary} from '../../data.js'
 
-const Intro = () => {
+const Intro = ({summary}) => {
   return (
     <section id="about">
       <h2 className='header__about__container'>About Me</h2>

@@ -1,8 +1,7 @@
 import React from "react";
-import { soloProjects } from "../../data.js";
 import "./portfolio.css";
 
-const Portfolio = () => {
+const Portfolio = ({soloProjects}) => {
   const soloProjectItems = soloProjects.map((pro) => (
     <article className="portfolio__item" key={pro.id}>
       <div className="portfolio__item-image">

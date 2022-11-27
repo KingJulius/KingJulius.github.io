@@ -1,8 +1,7 @@
 import React from 'react';
 import './timeline.css';
-import {exp} from '../../data.js'
 
-const Timeline = () => {
+const Timeline = ({exp}) => {
 
   const expItems = exp.map((element, index) => (
     <li key={`Timeline_${index}`}>

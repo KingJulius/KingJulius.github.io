@@ -5,7 +5,7 @@ import './header.css';
 import ME from "../../assets/me2.png"
 
 
-const Header = () => {
+const Header = ({links}) => {
   return (
     <header id="home">
       <div className="container header__container">
@@ -18,7 +18,7 @@ const Header = () => {
         <a href="#contact" className="scroll__down">
           Scroll Down
         </a>
-        <HeaderSocials />
+        <HeaderSocials links={links}/>
       </div>
     </header>
   );

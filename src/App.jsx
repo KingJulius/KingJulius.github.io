@@ -7,19 +7,19 @@ import Intro from './components/intro/Intro';
 import Portfolio from './components/portfolio/Portfolio';
 import Timeline from './components/timeline/Timeline';
 import Topbar from './components/topbar/Topbar';
-
+import { links, contents, summary, langauges, tools, exp, soloProjects } from "./data.js";
 
 const App = () => {
   return (
     <>
-      <Header />
-      <Topbar />
-      <Intro />
-      <Experience />
-      <Timeline />
-      <Portfolio />
+      <Header links={links}/>
+      <Topbar contents={contents}/>
+      <Intro summary={summary}/>
+      <Experience langauges={langauges} tools={tools}/>
+      <Timeline exp={exp}/>
+      <Portfolio soloProjects={soloProjects}/>
       <Contact />
-      <Footer />
+      <Footer links={links} contents={contents}/>
     </>
   )
 }

@@ -1,8 +1,7 @@
 import React from 'react';
 import './footer.css';
-import { contents, links } from "../../data.js";
 
-const Footer = () => {
+const Footer = ({links, contents}) => {
   const footerItems = contents.map((element) => (
     <li><a key={element.id} href={element.section}>{element.title}</a></li>
   ));
