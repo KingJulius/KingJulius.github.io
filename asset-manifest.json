@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3ea08ac3.css",
-    "main.js": "/static/js/main.ca6db9e5.js",
+    "main.js": "/static/js/main.34772c38.js",
     "static/media/foodclassifier.png": "/static/media/foodclassifier.8215031b28a5687af0c1.png",
     "static/media/me.png": "/static/media/me.f46dec1fc8fb3551e753.png",
     "static/media/me2.png": "/static/media/me2.6df66d8ee28b1dbdc7b3.png",
@@ -44,10 +44,10 @@
     "static/media/npm-original-wordmark.svg": "/static/media/npm-original-wordmark.87689eab730642c86d2b01f3ef4a19e3.svg",
     "static/media/windows8-original.svg": "/static/media/windows8-original.c6bdcf3339e2ba9c67ed5551a4f574d6.svg",
     "main.3ea08ac3.css.map": "/static/css/main.3ea08ac3.css.map",
-    "main.ca6db9e5.js.map": "/static/js/main.ca6db9e5.js.map"
+    "main.34772c38.js.map": "/static/js/main.34772c38.js.map"
   },
   "entrypoints": [
     "static/css/main.3ea08ac3.css",
-    "static/js/main.ca6db9e5.js"
+    "static/js/main.34772c38.js"
   ]
 }
