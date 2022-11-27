@@ -1,9 +1,8 @@
 import React from "react";
 import "./experience.css";
-import { langauges, tools } from "../../data.js";
 import ReactToolTip from 'react-tooltip';
 
-const Experience = () => {
+const Experience = ({ langauges, tools }) => {
   const languageItems = langauges.map((element) => (
     <article className="experience__details">
       <img key={element.id} className="library_logo" src={element.img} alt={element.title} data-tip={element.title} data-for="tool-tip"/>
