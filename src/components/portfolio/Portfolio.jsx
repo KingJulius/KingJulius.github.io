@@ -21,6 +21,14 @@ const Portfolio = ({soloProjects}) => {
         >
           GitHub
         </a>
+        <a
+          href={pro.link}
+          target="_blank"
+          className="btn btn-primary"
+          rel="noreferrer"
+        >
+          Visit Website
+        </a>
       </div>
     </article>
   ));

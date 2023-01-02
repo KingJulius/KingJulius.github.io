@@ -1,6 +1,7 @@
 import IMG1 from './assets/project-images/foodclassifier.png';
 import IMG2 from './assets/project-images/minesweeper.png';
 import IMG3 from './assets/project-images/digitclassifier.png';
+import IMG4 from './assets/project-images/expensetracker.png';
 
 import HONEYWELL from './assets/company-icons/honeywell-logo.jpg'
 import KPMG from './assets/company-icons/kpmg-logo.svg'
@@ -52,12 +53,21 @@ import { FaTwitterSquare } from 'react-icons/fa'
 
 export const soloProjects = [
   {
+    id: 4,
+    title: 'Expense Tracker',
+    img: IMG4,
+    description: 'A Web App Developed to keep track of expenses.',
+    technologies: 'React | JavaScript(ES6) | CSS Modules',
+    link: 'https://kingjulius.github.io/expense-tracker/',
+    github: 'https://github.com/KingJulius/expense-tracker',
+  },
+  {
     id: 1,
     title: 'Food Dish Classifier',
     img: IMG1,
     description:
-      'Website that allows users to upload image of their dish and it returns the label along with the confidence score',
-    technologies: 'TensorFlow | Flask | React.js',
+      'Website that allows users to upload image of their dish and it returns the label along with the confidence score.',
+    technologies: 'Python | TensorFlow | Flask | React| NGINX | AWS EC2',
     link: '',
     github: 'https://github.com/KingJulius/Predict-that-Dish',
   },
@@ -67,17 +77,17 @@ export const soloProjects = [
     img: IMG2,
     description:
       'A GUI game using a client/server architecture to load and save an instance of the game and to display the top scores.',
-    technologies: 'Java | JavaFX | Swing | GUI | SQLite | JDBC',
-    link: 'https://github.com/KingJulius/Minesweeper',
+    technologies: 'Java | Swing | SQLite',
+    link: '',
     github: 'https://github.com/KingJulius/Minesweeper',
   },
   {
     id: 3,
     title: 'Digit Classification using Real-Time Image Feed',
     img: IMG3,
-    description: 'Digit Classification using Real-Time Image Feed',
+    description: 'Digit Classification using Real-Time Image Feed.',
     technologies: 'Python | OpenCV | Keras| TensorFlow',
-    link: 'https://github.com/KingJulius/Real-Time-Digit-Classification',
+    link: '',
     github: 'https://github.com/KingJulius/Real-Time-Digit-Classification',
   },
 ];
