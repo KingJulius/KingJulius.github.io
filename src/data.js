@@ -27,6 +27,7 @@ import REDUX from "./assets/library-icons/redux-original.svg";
 import SPRING from "./assets/library-icons/spring-original.svg";
 import TENSORFLOW from "./assets/library-icons/tensorflow-original.svg";
 import TYPESCRIPT from "./assets/library-icons/typescript-original.svg";
+import TAILWIND from "./assets/library-icons/tailwind-plain.svg";
 import NPM from "./assets/tool-icons/npm-original-wordmark.svg";
 import UBUNTU from "./assets/tool-icons/ubuntu-plain.svg";
 import GIT from "./assets/tool-icons/git-original.svg";
@@ -117,7 +118,8 @@ export const langauges = [
   {id:16, title:'JAVA', img:JAVA},
   {id:17, title:'MARKDOWN', img:MARKDOWN},
   {id:18, title:'SPRING', img:SPRING},
-  {id:19, title:'C', img:C}
+  {id:19, title:'C', img:C},
+  {id:20, title:'TAILWIND CSS', img:TAILWIND}
 ];
 
 export const tools =[
