@@ -2,6 +2,7 @@ import IMG1 from './assets/project-images/foodclassifier.png';
 import IMG2 from './assets/project-images/minesweeper.png';
 import IMG3 from './assets/project-images/digitclassifier.png';
 import IMG4 from './assets/project-images/expensetracker.png';
+import IMG5 from './assets/project-images/ai-gallery.png';
 
 import HONEYWELL from './assets/company-icons/honeywell-logo.jpg'
 import KPMG from './assets/company-icons/kpmg-logo.svg'
@@ -53,6 +54,15 @@ import { FaTwitterSquare } from 'react-icons/fa'
 
 
 export const soloProjects = [
+  {
+    id: 5,
+    title: 'AI Generated Images Gallery',
+    img: IMG5,
+    description: 'An AI image generated gallery using MERN stack.',
+    technologies: 'React | JavaScript(ES6) | Tailwind CSS | MongoDB | Express.js | Node.js',
+    link: 'https://ai-img-app-zemc.onrender.com',
+    github: 'https://github.com/KingJulius/ai-img-gallery-frontend',
+  },
   {
     id: 4,
     title: 'Expense Tracker',
