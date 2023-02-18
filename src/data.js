@@ -60,7 +60,7 @@ export const soloProjects = [
     img: IMG5,
     description: 'An AI image generated gallery using MERN stack.',
     technologies: 'React | JavaScript(ES6) | Tailwind CSS | MongoDB | Express.js | Node.js',
-    link: 'https://ai-img-app-zemc.onrender.com',
+    link: 'https://ai-img-app-zemc.onrender.com/',
     github: 'https://github.com/KingJulius/ai-img-gallery-frontend',
   },
   {
