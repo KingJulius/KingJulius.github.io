@@ -9,7 +9,6 @@ import KPMG from './assets/company-icons/kpmg-logo.svg'
 import NBA from './assets/company-icons/nba-logo.jpeg'
 
 import HTML from "./assets/library-icons/html5-original.svg";
-import CSS from "./assets/library-icons/css3-original.svg";
 import DJANGO from "./assets/library-icons/django-plain.svg";
 import EXPRESS from "./assets/library-icons/express-original.svg";
 import FLASK from "./assets/library-icons/flask-original.svg";
@@ -25,6 +24,7 @@ import PYTHON from "./assets/library-icons/python-original.svg";
 import PYTORCH from "./assets/library-icons/pytorch-original.svg";
 import REACT from "./assets/library-icons/react-original.svg";
 import REDUX from "./assets/library-icons/redux-original.svg";
+import REACT_NATIVE from "./assets/library-icons/react-native.svg";
 import SPRING from "./assets/library-icons/spring-original.svg";
 import TENSORFLOW from "./assets/library-icons/tensorflow-original.svg";
 import TYPESCRIPT from "./assets/library-icons/typescript-original.svg";
@@ -104,9 +104,11 @@ export const soloProjects = [
 ];
 
 export const exp = [
-  {position:`Software Eng Intern`,  company:"NBA", dates:"Jun 2022 – Aug 2022", location:"New York, USA", img:NBA},
-  {position:"Analyst",  company:"KPMG", dates:"Jul 2018 – Aug 2020", location:`Bengaluru, India`, img:KPMG},
-  {position:"Software Dev Intern",  company:"Honeywell Technology Solutions", dates:"Jan 2018 – Jun 2018", location:"Bengaluru, India", img:HONEYWELL},
+  {position:`Application Development Engineer I`,  company:"Centene Corporation", dates:"Oct 2023 - Present", location:"California, USA", img:NBA},
+  {position:`Software Developer`,  company:"Abbott Laboratories", dates:"Apr 2023 - Oct 2022", location:"New York, USA", img:NBA},
+  {position:`Software Eng Intern`,  company:"NBA", dates:"Jun 2022 - Aug 2022", location:"New York, USA", img:NBA},
+  {position:"Analyst",  company:"KPMG", dates:"Jul 2018 - Aug 2020", location:`Bengaluru, India`, img:KPMG},
+  {position:"Software Dev Intern",  company:"Honeywell Technology Solutions", dates:"Jan 2018 - Jun 2018", location:"Bengaluru, India", img:HONEYWELL},
 ];
 
 export const langauges = [
@@ -121,7 +123,7 @@ export const langauges = [
   {id:9, title:'DJANGO', img:DJANGO},
   {id:10, title:'FLASK', img:FLASK},
   {id:11, title:'HTML', img:HTML},
-  {id:12, title:'CSS', img:CSS},
+  {id:12, title:'REACT NATIVE', img:REACT_NATIVE},
   {id:13, title:'MONGODB', img:MONGODB},
   {id:14, title:'TENSORFLOW', img:TENSORFLOW},
   {id:15, title:'PYTORCH', img:PYTORCH},
@@ -129,7 +131,7 @@ export const langauges = [
   {id:17, title:'MARKDOWN', img:MARKDOWN},
   {id:18, title:'SPRING', img:SPRING},
   {id:19, title:'C', img:C},
-  {id:20, title:'TAILWIND CSS', img:TAILWIND}
+  {id:20, title:'TAILWIND CSS', img:TAILWIND},
 ];
 
 export const tools =[
@@ -162,4 +164,4 @@ export const links = [
   {id:3, title:'Twitter', url:'https://twitter.com/jsdsz', icon:<FaTwitterSquare />},
 ];
 
-export const summary = "Experience in developing scalable websites and applications using a wide range of modern technologies and frameworks. Comprehensive experience in designing and developing high-quality deliverables for large enterprises/clients. Highly adept at both independent and collaborative projects, with an emphasis on landing pages and website development.";
+export const summary = "Experience in developing scalable websites and mobile applications using a wide range of modern technologies and frameworks. Comprehensive experience in designing and developing high-quality deliverables for large enterprises/clients. Highly adept at both independent and collaborative projects, with an emphasis on website and mobile app development.";
