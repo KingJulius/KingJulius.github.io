@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.3ea08ac3.css",
-    "main.js": "/static/js/main.c8bbb107.js",
+    "main.js": "/static/js/main.874de90f.js",
     "static/media/ai-gallery.png": "/static/media/ai-gallery.2ff1336253b268827824.png",
     "static/media/foodclassifier.png": "/static/media/foodclassifier.8215031b28a5687af0c1.png",
     "static/media/me.png": "/static/media/me.f46dec1fc8fb3551e753.png",
     "static/media/me2.png": "/static/media/me2.6df66d8ee28b1dbdc7b3.png",
     "static/media/linux-original.svg": "/static/media/linux-original.0cb7bf4e5cb9ed5e2333d50935fad3d4.svg",
-    "static/media/resume_julius_v4.pdf": "/static/media/resume_julius_v4.0f038ce3716847d5f1df.pdf",
     "static/media/digitclassifier.png": "/static/media/digitclassifier.1750fe4070d86d658a19.png",
     "static/media/expensetracker.png": "/static/media/expensetracker.62b2f459dd2d5149c514.png",
+    "static/media/resume_julius_v5.pdf": "/static/media/resume_julius_v5.95f3ba9f5b728b773acd.pdf",
     "static/media/honeywell-logo.jpg": "/static/media/honeywell-logo.be995c3ece0d09fc54f5.jpg",
     "static/media/nba-logo.jpeg": "/static/media/nba-logo.d7050e6ad82cf77d9e20.jpeg",
     "static/media/minesweeper.png": "/static/media/minesweeper.c23c4f4e0c9adbf32e0e.png",
     "static/media/flask-original.svg": "/static/media/flask-original.c084b9349458e09e6559ca851f06e2b2.svg",
+    "static/media/react-native.svg": "/static/media/react-native.55360266b3781dae00a5a77c8916f82d.svg",
     "static/media/mongodb-original.svg": "/static/media/mongodb-original.6835c61a518a732eb8318d43dfe8f700.svg",
     "static/media/docker-original.svg": "/static/media/docker-original.1d41320cb0101dbbc6fe182abd590263.svg",
     "static/media/mysql-original.svg": "/static/media/mysql-original.ebf5eeaef302d497971c5bbd898566e4.svg",
@@ -34,7 +35,6 @@
     "static/media/typescript-original.svg": "/static/media/typescript-original.8d9549db1a0f5d73a35aa5dab48a09f9.svg",
     "static/media/spring-original.svg": "/static/media/spring-original.556e13d3d09ea5a5d874d2dfa1908d4a.svg",
     "static/media/express-original.svg": "/static/media/express-original.4925c0127df8857c18b38329795ce88f.svg",
-    "static/media/css3-original.svg": "/static/media/css3-original.39769a8bd378bf410d6b381a8d88fa35.svg",
     "static/media/git-original.svg": "/static/media/git-original.c08353563539c6459b353f29d8dd7bf2.svg",
     "static/media/vscode-original.svg": "/static/media/vscode-original.3e91ebeb866625ec0bf6afdccff4020c.svg",
     "index.html": "/index.html",
@@ -47,10 +47,10 @@
     "static/media/npm-original-wordmark.svg": "/static/media/npm-original-wordmark.87689eab730642c86d2b01f3ef4a19e3.svg",
     "static/media/windows8-original.svg": "/static/media/windows8-original.c6bdcf3339e2ba9c67ed5551a4f574d6.svg",
     "main.3ea08ac3.css.map": "/static/css/main.3ea08ac3.css.map",
-    "main.c8bbb107.js.map": "/static/js/main.c8bbb107.js.map"
+    "main.874de90f.js.map": "/static/js/main.874de90f.js.map"
   },
   "entrypoints": [
     "static/css/main.3ea08ac3.css",
-    "static/js/main.c8bbb107.js"
+    "static/js/main.874de90f.js"
   ]
 }
