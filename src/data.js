@@ -104,8 +104,8 @@ export const soloProjects = [
 ];
 
 export const exp = [
-  {position:`Application Development Engineer I`,  company:"Centene Corporation", dates:"Oct 2023 - Present", location:"California, USA", img:NBA},
-  {position:`Software Developer`,  company:"Abbott Laboratories", dates:"Apr 2023 - Oct 2022", location:"New York, USA", img:NBA},
+  {position:`Application Development Engineer I`,  company:"Centene Corporation", dates:"Oct 2023 - Present", location:"California, USA", img:''},
+  {position:`Software Developer`,  company:"Abbott Laboratories", dates:"Apr 2023 - Oct 2023", location:"California, USA", img:''},
   {position:`Software Eng Intern`,  company:"NBA", dates:"Jun 2022 - Aug 2022", location:"New York, USA", img:NBA},
   {position:"Analyst",  company:"KPMG", dates:"Jul 2018 - Aug 2020", location:`Bengaluru, India`, img:KPMG},
   {position:"Software Dev Intern",  company:"Honeywell Technology Solutions", dates:"Jan 2018 - Jun 2018", location:"Bengaluru, India", img:HONEYWELL},
