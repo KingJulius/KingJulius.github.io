@@ -36,6 +36,11 @@ jobs:
     
       - name: Export static site 🌐
         run: npx next export
+    
+      - name: Debug Output Directory 🛠️
+        run: |
+          echo "Contents of the output directory:"
+          ls -la ./out
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
