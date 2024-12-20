@@ -1,5 +1,6 @@
 {
-  "name": "portfolio_v12",
+  "homepage": "http://KingJulius.github.io/",
+  "name": "julius--nextjs-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
