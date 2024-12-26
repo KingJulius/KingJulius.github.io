@@ -8,8 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "pnpm build",
-    "deploy": "pnpm run build && gh-pages -d out -t true"
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d out -t true"
   },
   "dependencies": {
     "clsx": "^2.1.1",
