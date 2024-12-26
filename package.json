@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "predeploy": "pnpm build",
     "deploy": "pnpm run build && gh-pages -d out -t true"
   },
   "dependencies": {
