@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal-Portfolio
+> This is my personal portfolio website.
 
-## Getting Started
+![Portfolio](/public/home.png)
 
-First, run the development server:
+## Built With
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Next.js
+- React.js
+- TypeScript
+- Tailwind CSS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Live Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Live Demo](https://kingjulius.github.io/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+# Getting Started
+## Prerequisites:
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Create an account on github
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Install gitbash or use git on the command line.
 
-## Deploy on Vercel
+- Use an IDE of your preference such as VScode.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Install Node.js
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Steps to follow:
+
+- Choose a folder in your local machine where you want this repository to be copied
+
+- Clone this [repository](https://github.com/KingJulius/KingJulius.github.io) to your local machine 
+- ```
+  gh repo clone KingJulius/KingJulius.github.io
+  ```
+
+- Navigate to `cd KingJulius.github.io-main`  directory.
+
+- To install all the app dependencies on the command line run
+- ```
+  pnpm install
+  ``` 
+- To run app in the development mode run 
+- ```
+  pnpm run dev
+  ```
+
+
+## Author
+
+:man: **Julius Dsouza**
+
+- [GitHub](https://github.com/KingJulius)
+- [LinkedIn](https://www.linkedin.com/in/julius-dsouza/)
+
+## 🤝 Contributing
+- Contributions, issues, and feature requests are welcome!
+- Feel free to check the [issues page](https://github.com/KingJulius/KingJulius.github.io/issues).
+
+# Show your support
+Give a ⭐ if you like this project!
