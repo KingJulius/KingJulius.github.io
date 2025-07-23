@@ -2,9 +2,38 @@ import Image from "next/image";
 
 export const EXPERIENCE = [
   {
-    title: "Jan 2024 - Present ",
+    title: "July 2024 - Present ",
     content: (
-      <div>
+      <div key="meta">
+        <div className="grid grid-cols-2 gap-4">
+          <Image
+            src="/company-icons/meta-logo.png"
+            width={100}
+            height={100}
+            alt="avatar"
+            className="rounded-md hover:grayscale mb-5 w-auto h-20 px-2 dark:bg-white"
+            priority
+          />
+        </div>
+        <p className="text-zinc-800 dark:text-zinc-100 text-xs md:text-base font-bold mb-2">
+          Software Engineer
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
+          Meta
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-2">
+          California, USA
+        </p>
+        <p className="text-gray-500 dark:text-gray-400 text-xs md:text-sm font-normal mb-2">
+          Working as a full-stack engineer as a part of the Internal Tools Team.
+        </p>
+      </div>
+    ),
+  },
+  {
+    title: "Jan 2024 - July 2024 ",
+    content: (
+      <div key="apple">
         <div className="grid grid-cols-2 gap-4">
           <Image
             src="/company-icons/apple_logo.webp"
@@ -36,7 +65,7 @@ export const EXPERIENCE = [
   {
     title: "Oct 2023 - Dec 2023",
     content: (
-      <div>
+      <div key="centene">
         <div className="grid grid-cols-2 gap-4">
           <Image
             src="/company-icons/centene-logo.png"
@@ -68,7 +97,7 @@ export const EXPERIENCE = [
   {
     title: "Apr 2023 - Oct 2023",
     content: (
-      <div>
+      <div key="abbott">
         <div className="grid grid-cols-2 gap-4">
           <Image
             src="/company-icons/abbott-logo.png"
@@ -100,7 +129,7 @@ export const EXPERIENCE = [
   {
     title: "Jun 2022 - Aug 2022",
     content: (
-      <div>
+      <div key="nba">
         <div className="grid grid-cols-2 gap-4">
           <Image
             src="/company-icons/nba-logo.jpeg"
@@ -133,7 +162,7 @@ export const EXPERIENCE = [
   {
     title: "Jan 2021 - Dev 2022",
     content: (
-      <div>
+      <div key="nyu">
         <div className="grid grid-cols-2 gap-4">
           <Image
             src="/company-icons/nyu-logo.jpg"
@@ -159,7 +188,7 @@ export const EXPERIENCE = [
   {
     title: "Jul 2018 - Aug 2020",
     content: (
-      <div>
+      <div key="kpmg">
         <div className="grid grid-cols-2 gap-4">
           <Image
             src="/company-icons/kpmg-logo.jpg"
@@ -190,7 +219,7 @@ export const EXPERIENCE = [
   {
     title: "Jan 2018 - Jun 2018",
     content: (
-      <div>
+      <div key="honeywell">
         <div className="grid grid-cols-2 gap-4">
           <Image
             src="/company-icons/honeywell-logo.jpg"
@@ -222,7 +251,7 @@ export const EXPERIENCE = [
   {
     title: "Aug 2014 - Jun 2018",
     content: (
-      <div>
+      <div key="mit">
         <div className="grid grid-cols-2 gap-4">
           <Image
             src="/company-icons/mahe-logo.png"

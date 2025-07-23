@@ -27,11 +27,11 @@ export default function Home() {
           <p className="mt-4 mb-4">
             Currently, I&apos;m working as a software engineer at&nbsp;
             <a
-              href="https://www.apple.com/"
+              href="https://www.meta.com"
               target="_blank"
               className="border-b border-slate-950 dark:border-white inline-block"
             >
-              Apple
+              Meta
             </a>
             .
           </p>
