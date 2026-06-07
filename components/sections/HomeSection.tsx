@@ -4,7 +4,7 @@ import { GlassCard } from '@/components/ui/GlassCard';
 import { profileTitles, profileInfo } from '@/lib/data';
 import { Highlight } from '@/components/ui/hero-highlight';
 import { FileText, Sparkles, Code, MessageCircle, ArrowRight } from 'lucide-react';
-import { motion, useMotionValue, useTransform, animate, useReducedMotion } from 'framer-motion';
+import { motion, useMotionValue, useTransform, animate, useReducedMotion, type Variants } from 'framer-motion';
 import { useEffect, useRef } from 'react';
 import Image from 'next/image';
 
@@ -95,17 +95,17 @@ function AnimatedNumber({ value }: { value: number }) {
   return <span ref={ref} aria-hidden="true">0</span>;
 }
 
-const stagger = {
+const stagger: Variants = {
   hidden: {},
   visible: { transition: { staggerChildren: 0.1 } },
 };
 
-const fadeUp = {
+const fadeUp: Variants = {
   hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeOut' } },
 };
 
-const fadeLeft = {
+const fadeLeft: Variants = {
   hidden: { opacity: 0, x: 30 },
   visible: { opacity: 1, x: 0, transition: { duration: 0.5, ease: 'easeOut' } },
 };
