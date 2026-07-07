@@ -14,7 +14,13 @@ const navLinks = [
 ];
 
 export function Navbar() {
-  const pathname = usePathname();
+  const rawPathname = usePathname();
+  // With `trailingSlash: true` (static export), prod paths arrive as
+  // "/experience/" — strip the slash so they match the nav hrefs.
+  const pathname =
+    rawPathname !== '/' && rawPathname?.endsWith('/')
+      ? rawPathname.slice(0, -1)
+      : rawPathname;
 
   return (
     <>
